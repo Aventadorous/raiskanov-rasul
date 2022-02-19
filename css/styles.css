@@ -1,0 +1,101 @@
+a {
+  color: white;
+  background-color: dark;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+span{
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+p{
+  padding-left: 10em;
+  padding-right: 10em;
+}
+hr {
+  width: 40%;
+  border-top: 3px solid;
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  margin-top: 1em;
+}
+h5{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#webgames{
+  font-family: 'Montserrat', sans-serif;
+}
+#tglinks{
+  color: black;
+}
+#navbarNav {
+  background-color: dark;
+}
+#intro {
+  margin-left: 1em;
+}
+#carouselExampleFade{
+  margin-left: auto;
+  margin-right: auto;
+}
+#dropdownMenuLink{
+  margin-right: 1em;
+}
+.card{
+  background-color: #202020;
+}
+.card-text{
+  color: white;
+}
+.games {
+  text-align: center;
+}
+
+
+* {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+@-webkit-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.element-animation {
+  opacity: 0;
+}
+.element-animation.element-show {
+  opacity: 1;
+  transition: opacity 3s;
+}
